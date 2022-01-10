@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css-bt/bootstrap.min.css">
     <link rel="stylesheet" href="../css/estilo.css">
     <link rel="shortcut icon" href="../imagenes/favicon.png" type="image/x-icon">
     <title>Contacto</title>
@@ -43,47 +44,20 @@
 
 <!-- Aca comienza el contenido -->
 
-
-<div class="contenido">
-    <div class="contenido__flex">
-        <form action="">
-
-            <fieldset>
-
-                <h2>
-                    <legend>Contactanos:</legend>
-                </h2>
-
-                <br>
-                <br>
-
-                <label for="nombre">Nombre:</label>
-                <input type="text" name="nombre" id="nombre">
-
-                <br>
-                <br>
-
-                <label for="apellido">Apellido:</label>
-                <input type="text" name="apellido" id="apellido">
-
-                <br>
-                <br>
-
-                <label for="consultas">Dejanos tu consulta</label>
-                <br>
-                <br>
-                <textarea name="consultas" rows="10" cols="40"></textarea>
-
-                <br>
-                <br>
-
-                <input type="button" name="enviar" id="enviar" value="Enviar">
-
-
-            </fieldset>
-
-        </form>
+    <div class="contenido">
+        <H3>Contactate con nosotros:</H3>
+        <div class="mb-3">
+            <label for="exampleFormControlInput1" class="form-label">Direccion de E-Mail</label>
+            <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="nombre@ejemplo.com">
+        </div>
+        <div class="mb-3">
+            <label for="exampleFormControlTextarea1" class="form-label">Consulta:</label>
+            <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Dejanos aquí tu consulta"></textarea>
+        </div>
+        
+        <input type="button" name="enviar" id="enviar" value="Enviar">
     </div>
+
 </div>
 
 
@@ -116,7 +90,10 @@
         </div>
         
         </footer>
-        
-    
+
+
+<script src="../js-bt/bootstrap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+
     </body>
     </html>

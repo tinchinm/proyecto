@@ -94,6 +94,10 @@ padding: 1rem;
     text-align: justify;
 }
 
+.contenido__carousel-ancho{
+    width: 30%;
+} 
+
 /* -------------------FOOTER-------------------- */
 
 .footer{
