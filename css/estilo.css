@@ -5,7 +5,8 @@
 
 /*--------------------HEADER-------------------*/
 .header{
-    background-color: #808283;
+    /* background-color: #808283; */
+    background-image: linear-gradient(#808283,#e3e4e5);
 }
 
 .header__logo img{
@@ -29,12 +30,20 @@ padding: 1rem;
 
 .header__navbar a{
     text-decoration: none;
+    color: black;
     background-color: #e3e4e5ea;
     padding: 0.5rem;
     margin: 0.2rem;
     border-style: solid;
-    border-color: black;
-    border-width: thin;
+    border-color: #808283;
+    border-width: 2px;
+    border-radius: 0.5rem;
+    transition: all 150ms ease-in-out;
+}
+
+.header__navbar a:hover{
+    color: #e3e4e5ea ;
+    background-color: #808283 ;
 }
 
 .header__flex{
@@ -88,7 +97,8 @@ padding: 1rem;
 /* -------------------FOOTER-------------------- */
 
 .footer{
-    background-color: #808283   ;
+    /* background-color: #808283  ; */
+    background-image: linear-gradient(#e3e4e5,#808283);
     padding: 1rem;
 }
 
