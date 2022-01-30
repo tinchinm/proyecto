@@ -1,0 +1,62 @@
+@import "variables";
+@import "header";
+@import "footer";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+/* -------------------CONTENIDO-------------------- */
+
+.contenido{
+    background-color: $color_principal_claro   ;
+    padding: 2rem;
+
+    img{
+        width: 200px;
+        padding: 1rem;
+        display: inline-block;
+    }
+
+    p{
+        font-size: 1.2rem;
+        font-weight: bold;
+        display: inline-block;
+    }
+}
+
+.contenido__flex{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.contenido__flex--servicios{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.contenido__nosotros{
+    background-color: $color_principal_claro   ;
+    padding: 2rem;
+
+    p{
+        font-size: 1.5rem;
+        display: inline-block;
+        text-align: justify;
+    }
+}
+
+.contenido__carousel-ancho{
+    width: 30%;
+} 
+
+@media(max-width: 768px){
+
+    .contenido__carousel-ancho{
+        width: 100%;
+    }
+
+}

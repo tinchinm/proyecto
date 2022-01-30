@@ -1,0 +1,33 @@
+/* -------------------FOOTER-------------------- */
+
+
+.footer{
+    /* background-color: #808283  ; */
+    background-image: linear-gradient($color_principal_claro,$color_principal_oscuro);
+    padding: 1rem;
+
+    ul{
+        list-style-type: none;
+    }
+
+    a{
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+    }
+
+    img{
+        width: 100px;
+    }
+}
+
+.footer__flex{
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__credito{
+    text-align: center;
+    color: white;
+    font-size: 0.5rem ;
+}
