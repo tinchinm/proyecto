@@ -1,3 +1,8 @@
+* {
+  padding: 0px;
+  margin: 0px;
+}
+
 /*--------------------HEADER-------------------*/
 .header {
   /* background-color: #808283; */
@@ -137,11 +142,6 @@
   .footer li {
     padding: 0.5rem;
   }
-}
-
-* {
-  padding: 0px;
-  margin: 0px;
 }
 
 /* -------------------CONTENIDO-------------------- */
