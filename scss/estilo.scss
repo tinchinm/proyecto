@@ -15,15 +15,13 @@
     padding: 2rem;
 
     img{
-        width: 200px;
-        padding: 1rem;
+        width: map-get($img_contenido , ancho );
+        padding: map-get($img_contenido , separacion );
         display: inline-block;
     }
 
     p{
-        font-size: 1.2rem;
-        font-weight: bold;
-        display: inline-block;
+        @include parrafos;
     }
 }
 
@@ -34,9 +32,8 @@
 }
 
 .contenido__flex--servicios{
-    display: flex;
+    @extend .contenido__flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .contenido__nosotros{

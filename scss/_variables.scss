@@ -1,3 +1,18 @@
 $color_principal_claro: #e3e4e5;
 $color_principal_oscuro: #808283;
 
+/* ........MAP GET.......... */
+
+$img_contenido:(
+    ancho: 200px,
+    separacion: 1rem,
+);
+
+
+/*....... MIXIN............. */
+
+@mixin parrafos {
+    font-size: 1.2rem;
+    font-weight: bold;
+    display: inline-block;
+}

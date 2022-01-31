@@ -3,9 +3,10 @@
   margin: 0px;
 }
 
+/* ........MAP GET.......... */
+/*....... MIXIN............. */
 /*--------------------HEADER-------------------*/
 .header {
-  /* background-color: #808283; */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#808283), to(#e3e4e5));
   background-image: linear-gradient(#808283, #e3e4e5);
 }
@@ -97,7 +98,6 @@
 
 /* -------------------FOOTER-------------------- */
 .footer {
-  /* background-color: #808283  ; */
   background-image: -webkit-gradient(linear, left top, left bottom, from(#e3e4e5), to(#808283));
   background-image: linear-gradient(#e3e4e5, #808283);
   padding: 1rem;
@@ -162,7 +162,7 @@
   display: inline-block;
 }
 
-.contenido__flex {
+.contenido__flex, .contenido__flex--servicios {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -174,14 +174,9 @@
 }
 
 .contenido__flex--servicios {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
   -webkit-box-pack: justify;
       -ms-flex-pack: justify;
           justify-content: space-between;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
 }
 
 .contenido__nosotros {
